@@ -7,7 +7,7 @@ face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 
 
 while True:
-    ret, frame = cap.read() # this fn returns 2 values 111. bool-means wether camera is active or not and second frame of camera
+    ret, frame = cap.read() # this fn returns 2 values 1. bool-means wether camera is active or not and second frame of camera
     #for grayscale video
     gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
